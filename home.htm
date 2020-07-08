@@ -27,7 +27,7 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" data-target="#myNavbar">
                     <div class="icon-bar"></div>
                     <div class="icon-bar"></div>
                     <div class="icon-bar"></div>
@@ -51,6 +51,7 @@
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
             </ol>
         <div class="carousel-inner" role="listbox">
             <div class="item active">
@@ -65,11 +66,16 @@
                 <img src="images-church/kid-with-bible.jpeg" alt="bible verse" width="400" height="500">
             </div>
             <div class="item">
-                <h2 class="testimonial-text">Etant justifiés gratuitement par sa grâce, par la rédemption qui est en Jésus-Christ.
-                    <br/> <span><em>Romains 3:24</em></span></h2>
+                <h2 class="testimonial-text">"Allez, faîtes de toutes les nations des disciples...." 
+                    <br/> <span><em>Matthieu 28: 19</em></span></h2>
                 
-
                 <img src="images-church/main-bible.jpeg" alt="bible verse" width="400" height="500">
+            </div>
+            <div class="item">
+                <h2 class="testimonial-text">"C'est le Camp de Dieu! Et il donne à ce lieu le nom de Mahanaïm".
+                    <br /> <span><em>Genèse 32: 2</em></span></h2>
+            
+                <img src="images-church/church-banch.png" alt="bible verse" width="400" height="500">
             </div>
         </div>
 
@@ -89,14 +95,7 @@
     <div id="band" class="container text-center">
         <h3>MahanaÏm Apostolic church</h3>
         <p><em>Repentez-vous aujourd'hui, car demain sera trop tard.</em></p>
-        <p>Cette église apostolique Mahanaim (M.A.C.) située à West Dixie dans le nord de Miami. Nous croyons au service de
-        Jésus-Christ comme notre sauveur et prêcherons sa parole dans le nord de Miami et dans le monde. Nous sommes déterminés
-        à servir notre communauté haïtienne au nord-ouest de dixie miami. Nous voulions encourager la communauté haïtienne à
-        mettre Dieu au premier plan de son service au quotidien avec son cœur et son âme, nous sommes là pour vous aider et vous
-        encourager à servir Dieu. Alors Dieu vous aidera à établir sa relation avec vous vers le Saint-Esprit et Dieu touchera
-        votre cœur et votre âme afin de faire une transition à travers votre vie, votre famille, vos amis, votre ennemi et plus
-        dans notre communauté afin que vous puissiez vivre une meilleure vie chrétienne tant que vous vivrez sur cette
-        terre, et il vous guidera vers la voie du salut.</p>
+        <p>L' Église Apostolique Mahanaïm, localisée à l'adresse suivante: 7488 NE 2Ave. Miami Florida 33138, est une assemblée évangélico-missionnaire et Christocentrique. Nous sommes déterminés et engagés dans le service divin et celui de notre communauté. Notre mission se résume ainsi: Adorer et louer le Dieu créateur et tout-puissant,Prêcher et enseigner les saints, Évangéliser, nourrir et prendre soin du monde, Préparer des leaders et fonder de nouvelles églises, Bâtir des centres de formation et des orphélinats pour l'encadrement de nos enfants et des jeunes en difficulté. Présenter un salut intégral aux hommes et aux femmes du monde entier.</p>
         <br>
 
         <!-- Card -->
@@ -171,7 +170,7 @@
  
             </div>
         </div>
-    </div>    
+    </div> 
 
     <!-- Container (Contact Section) -->
     <div id="contact" class="container">
@@ -181,10 +180,10 @@
         <div class="row" >
             <div class="col-md-4 ml-2 setting-address">
                 <p>Our Address</p>
-                <a href="https://www.google.com/maps/place/12399+W+Dixie+Hwy,+North+Miami,+FL+33161/@25.8890122,-80.1882693,18z/data=!4m5!3m4!1s0x88d9b1f88581bcd1:0x9233f88699cf7988!8m2!3d25.8890846!4d-80.1882693">
+                <a href="https://www.google.com/maps/place/7488+NE+2nd+Ave,+Miami,+FL+33138/@25.8437572,-80.1951295,17z/data=!3m1!4b1!4m5!3m4!1s0x88d9b17c0a6a53fd:0xb0b70be155935204!8m2!3d25.8437572!4d-80.1929408">
                     <p><span class="glyphicon glyphicon-map-marker">
-                        </span> 12399 W Dixie Hwy
-                        <br />North Miami, FL 33161
+                        </span> 7488 NE 2Ave. 
+                        <br />Miami, Florida 33138
                     </p>
                 </a>
                 <p><span class="glyphicon glyphicon-phone"></span> Phone: 786-357-2277</p>
@@ -192,46 +191,77 @@
             </div>
 
             <div class="col-md-8 formations">
+                <form action="" method="post"></form>
                 <div class="row ">
                     <div class="col-sm-6 form-group">
-                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        <input class="form-control"  name="to_address" placeholder="Name" type="text" required>
                     </div>
                     <div class="col-sm-6 form-group">
-                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        <input class="form-control"  name="email" placeholder="Email" type="email" required>
                     </div>
                 </div>
-                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                <textarea class="form-control"  name="comments" placeholder="Comment" rows="5"></textarea>
                 <br>
                 <div class="row">
                     <div class="col-md-12 form-group">
-                        <button class="btn pull-right" type="submit" disabled>Send</button>
+                        <button class="btn pull-right" type="submit" >Send</button>
                     </div>
                 </div>
             </div>
         </div>
+        
         <div class="other-contact">
-            <h4 class="text-center">Autre contact ici!</h4>
+            <h4 class="text-center">Autre contact!</h4>
             <ul class="nav nav-tabs">
-                <li class="active"><a data-toggle="tab" href="#home">Pasteur Daniel</a></li>
+                <li class="active"><a data-toggle="tab" href="#home">Fr. Daniel Resulma</a></li>
                 <li><a data-toggle="tab" href="#menu1">Ms. Renette</a></li>
-                <li><a data-toggle="tab" href="#menu2"></a></li>
+                <li><a data-toggle="tab" href="#menu2">Elysée Perceval </a></li>
             </ul>
             
             <div class="tab-content">
                 <div id="home" class="tab-pane fade in active">
-                    <h2>Rev. Daniel Resulma, Pasteur</h2>
-                    <p></p>
+                    <h2>Pasteur Sr. Daniel Resulma </h2>
+                    <p>Tel: 786-357-2277</p>
                 </div>
                 <div id="menu1" class="tab-pane fade">
-                    <h2>Soeur. Renette Resulma</h2>
-                    <p></p>
+                    <h2>L'épouse du pasteur Sr. Renette E. Resulma</h2>
+                    <p>Tel: 954-638-8786</p>
+                </div>
+                <div id="menu3" class="tab-pane fade">
+                    <h2>Pasteur Ezechiel Resulma </h2>
+                    <p>Tel: 786-641-9143 </p>
                 </div>
             </div>
         </div>
         
     </div>
 
-    <!-- Image of location/map -->
+    <!-- Radio link -->
+    <div class="container">
+            <div class="media">
+                <img src="images-church/img-church.png" class="ms-3 img-church" alt="tunein">
+                
+                <div class="media-body">
+                    <h3 class="mt-0">Radio Mahanaïm Inter</h3>
+                    <p>
+                        Radio Mahanaim Inter, voix de l'Eglise Apostolique Mahanaim. Bon levangil, mesaj, louanj ak adorasyon. Koute nou. Bondye
+                        beni ou. Se fre ou past. Daniel Resulma.
+                    </p>
+                </div>
+                <div class="radio-timeline">
+                    <h4>Chaque Jour - Prière du matin:</h4>
+                    <h4>5h30 - 7h30</h4>
+                    <h5>Tel: 435-777-2200 </h5>
+                    <h5>Pin: 8866234#</h5>
+                </div>
+                <button type="reset" class="btn btn-primary one">
+                    <a href="https://zeno.fm/mahanaim/"> Écoutez sur FM</a>
+                </button>
+                <button type="reset" class="btn btn-primary">
+                    <a href="https://tunein.com/radio/Radio-Mahanaim-Inter-s298787/"> TuneIn</a>
+                </button>
+            </div>
+    </div>
 
     <!-- Footer -->
     <footer class="text-center">
@@ -240,10 +270,18 @@
         </a>
         <div class="footer-center">
             <div class="footer-links">
-                <i class="fa fa-facebook">
-                    <a href="http://" ></a>
-                </i>
-                <i class="fa fa-youtube"></i>
+                <div class="footer-icon">
+                    <i class="fa fa-facebook">
+                        <a href="http://"> Facebook</a>
+                    </i>
+                </div>
+                <div class="footer-icon">
+                    <i class="fa fa-instagram"> Instagram</i>
+                </div>
+                <div class="footer-icon">
+                    <i class="fa fa-youtube"> Youtube</i>
+                </div>
+               
             </div>
             <p>&copy; 2017 Made By FLC</p>
         </div>

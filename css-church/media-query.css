@@ -12,18 +12,18 @@
      }
 
      .navbar-default .navbar-brand {
-         color: #8f6415;
+         color: #000102;
          background-color: transparent;
      }
 
      .navbar-toggle {
-       background-color: #fff;
+       background-color: #ffffff;
        border-radius: none;
        transition: all .5s ease-in-out;
      }
 
      .navbar-toggle:hover{
-          color: #aa6d0c;
+          color: #558ef7;
      }
 
      .testimonial-text {

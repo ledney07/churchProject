@@ -3,7 +3,8 @@
 
 body {
     font: 400 15px/1.8 Lato, sans-serif;
-    color: #2f2e2e;
+    /*color: #2f2e2e;*/
+    color: #000839;
 }
 
 
@@ -13,7 +14,7 @@ h4
     margin: 10px 0 30px 0;
     letter-spacing: 10px;
     font-size: 20px;
-    color: #111;
+    color: #000839;
 }
 
 
@@ -24,7 +25,7 @@ h4
 .container h3{
     font-size: 3rem;
     text-transform: uppercase;
-    color: #000;
+    color: #000839;
 }
 
 .person {
@@ -43,8 +44,8 @@ h4
 
 
 .carousel-inner img {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
     /* make all photos black and white */
     width: 100%;
     /* Set width to 100% */
@@ -76,14 +77,14 @@ h4
 }
 
 .bg-1 {
-    background: #8f6415;
-    color: #bdbdbd;
+    background: #6dbdff;
+    color: #000839;
     height: 100%;
     margin: 2rem 0 2rem 0;
 }
 
 .bg-1 h3 {
-    color: #fff;
+    color: #000839;
 }
 
 .bg-1 p {
@@ -117,27 +118,28 @@ h4
 
 .btn {
     padding: 10px 20px;
-    background-color: #aa6d0c;
+    background-color: #6dbdff;
     color: #f1f1f1;
     border-radius: 0;
     transition: .5s ease-in-out;
     border-radius: 2.5rem ;
+    text-decoration: none;
 }
 
 .btn:hover,
 .btn:focus {
     border: 1px solid #333;
     background-color: #fafafa;
-    color: #8f6415;
+    color: #000839;
 }
+
+.btn a{
+    text-decoration: none;
+}
+
 
 .nav-tabs li a {
     color: #777;
-}
-
-
-.glyphicon-map-marker{
-    color:#c03f18;
 }
 
 .glyphicon-phone{
@@ -164,12 +166,22 @@ h4
 }
 
 .setting-address a:hover{
-    color:#c03f18;
+    color:#8292ff;
 }
 
 span> em{
-    color: #c09442;
+    color: #8292ff;
     font-size: 2.5rem;
 } 
+
+.img-church{
+    width: 10rem;
+    height: 10rem;
+}
+
+.media{
+    margin: 4rem;
+}
+
 
         

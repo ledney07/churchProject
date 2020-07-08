@@ -2,7 +2,7 @@
 .navbar {
     font-family: Montserrat, sans-serif;
     margin-bottom: 0;
-    background-color: #4040428f;
+    background-color: #b5b5f78f;
     border: 0;
     font-size: 11px !important;
     letter-spacing: 4px;
@@ -16,7 +16,8 @@
 }
 
 .navbar li a {
-    color: #d5d5d5 !important;
+    color: #000839 !important;
+    text-transform: uppercase;
 }
 
 .navbar-nav li a{
@@ -25,8 +26,8 @@
 }
 
 .navbar-nav li.active a {
-    color: #8f6415 !important;
-    background-color: #202022 !important;
+    color: #fff !important;
+    background-color: #6dbdff !important;
     
 }
 
@@ -35,13 +36,13 @@
 }
 
 .navbar-default .navbar-brand:hover {
-    color: #fff;
+    color: #5a70ff;
     background-color: transparent;
 }
 
 .other-contact ul> li> a{
     font-size: 1.7rem;
-    color: #b17b18;
+    color: #000839;
     font-weight: 600;
 }
 
@@ -49,20 +50,19 @@
 .form-control{
     font-size: 1.2rem;
     font-family: inherit;
-    color:#000;
+    color:rgb(1, 16, 58);
     padding: 1.5rem 2rem;
     border-radius: 1px;
-    border: 2px solid #b17b18;
+    border: 2px solid #5a70ff;
     width: 100%;
     transition: all 0.3s ease-in-out;
     
 }
 
 .form-group input:hover,
-.form-control:hover{
+.form-control input:hover{
     outline: none;
-    box-shadow: 0 .2rem .2rem rgba(122, 119, 119, 0.5);
-    border: 2px solid #cea135;
+    border: 2px solid #000839;
 }
 
 .other-contact{
@@ -73,7 +73,7 @@
     font-size: 3rem;
     letter-spacing: 10px;
     text-transform: uppercase;
-    color: #000;
+    color: rgb(2, 11, 53);
 }
 
 
