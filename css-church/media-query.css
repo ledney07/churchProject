@@ -11,10 +11,20 @@
           margin-top: 2rem;
      }
 
+     .navbar{
+          background:#000102 ;
+          color: #e0dede;
+     }
+
      .navbar-default .navbar-brand {
-         color: #000102;
+         color: #2d8eee;
          background-color: transparent;
      }
+
+     .navbar li a {
+    color: #f0f1f7 !important;
+    text-transform: uppercase;
+}
 
      .navbar-toggle {
        background-color: #ffffff;
