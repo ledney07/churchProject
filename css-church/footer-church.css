@@ -9,11 +9,6 @@ footer a {
     color: #f5f5f5;
 }
 
-footer a:hover {
-    color: #558ef7;
-    text-decoration: none;
-}
-
 .form-control {
     border-radius: 0;
 }
@@ -45,4 +40,14 @@ textarea {
     margin: 4rem;
     font-size: 1.5rem;
     
+}
+
+.footer-icon > i > a{
+   text-transform: uppercase;
+   text-decoration: none;
+   transition: all .5s ease-in-out;
+}
+
+.footer-icon > i > a:hover{
+    color: #6dbdff;
 }

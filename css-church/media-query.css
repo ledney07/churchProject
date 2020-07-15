@@ -96,8 +96,9 @@
      }
 
      .text-center .firstOne {
-       padding-bottom: 5rem;
+       padding-bottom: 14rem;
      }
+  
 
      .thumbnail h1{
           font-size: 3rem;
@@ -116,13 +117,6 @@
 
 }
 
-/*@media (max-width: 260px){
-     .card-img img{
-       width: 250px;
-       height: 250px;
-     } 
-
-}
 
 
 
